@@ -2,7 +2,8 @@
   "name": "handpose",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "dependencies": { 
+    "@tensorflow/tfjs": "^4.22.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
