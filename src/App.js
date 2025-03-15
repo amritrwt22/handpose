@@ -16,7 +16,7 @@ npm install @tensorflow/tfjs @tensorflow-models/handpose react-webcam
 import "./App.css";
 //import dependencies
 import React, { useRef ,useEffect } from "react"; //useRef allow us to have refernces to the elements on our webpage
-
+import * as tf from "@tensorflow/tfjs"; //give us tensorflow backend
 import * as handpose from "@tensorflow-models/handpose"; //allow to make detection
 import Webcam from "react-webcam"; //allow us to use webcam of our machine
 
